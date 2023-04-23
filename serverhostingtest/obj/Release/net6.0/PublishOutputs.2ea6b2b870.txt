@@ -1,0 +1,11 @@
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\serverhostingtest.exe
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\appsettings.Development.json
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\appsettings.json
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\serverhostingtest.dll
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\serverhostingtest.deps.json
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\serverhostingtest.runtimeconfig.json
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\serverhostingtest.pdb
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\Microsoft.OpenApi.dll
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Jaswir Raghoe\source\repos\serverhostingtest\serverhostingtest\out\Swashbuckle.AspNetCore.SwaggerUI.dll
