@@ -1,0 +1,32 @@
+name: dockercompose17632019690592422204
+services:
+  aaas:
+    build:
+      context: C:\Users\Jaswir Raghoe\source\repos\AAAS
+      dockerfile: AAAS/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: aaas
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5000"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Jaswir Raghoe\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Jaswir Raghoe\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose17632019690592422204_default
