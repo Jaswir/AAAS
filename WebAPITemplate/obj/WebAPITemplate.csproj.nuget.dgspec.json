@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jaswir Raghoe\\Documents\\Backend-Experiments\\EmployeesWebAPI\\WebAPITemplate\\WebAPITemplate.csproj": {}
+    "C:\\Users\\Jaswir Raghoe\\source\\repos\\serverhostingtest\\WebAPITemplate\\WebAPITemplate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jaswir Raghoe\\Documents\\Backend-Experiments\\EmployeesWebAPI\\WebAPITemplate\\WebAPITemplate.csproj": {
+    "C:\\Users\\Jaswir Raghoe\\source\\repos\\serverhostingtest\\WebAPITemplate\\WebAPITemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaswir Raghoe\\Documents\\Backend-Experiments\\EmployeesWebAPI\\WebAPITemplate\\WebAPITemplate.csproj",
+        "projectUniqueName": "C:\\Users\\Jaswir Raghoe\\source\\repos\\serverhostingtest\\WebAPITemplate\\WebAPITemplate.csproj",
         "projectName": "WebAPITemplate",
-        "projectPath": "C:\\Users\\Jaswir Raghoe\\Documents\\Backend-Experiments\\EmployeesWebAPI\\WebAPITemplate\\WebAPITemplate.csproj",
+        "projectPath": "C:\\Users\\Jaswir Raghoe\\source\\repos\\serverhostingtest\\WebAPITemplate\\WebAPITemplate.csproj",
         "packagesPath": "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaswir Raghoe\\Documents\\Backend-Experiments\\EmployeesWebAPI\\WebAPITemplate\\obj\\",
+        "outputPath": "C:\\Users\\Jaswir Raghoe\\source\\repos\\serverhostingtest\\WebAPITemplate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jaswir Raghoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
