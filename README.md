@@ -1,4 +1,4 @@
-# AAAS Frontend
+# Autistic As A Service (AAAS)
 Autistic As A Service, Triple A, S. Backend running on ASP.NET Server
 
 # Getting started
