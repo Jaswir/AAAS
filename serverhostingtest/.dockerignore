@@ -13,11 +13,9 @@
 **/*.jfm
 **/azds.yaml
 **/bin
-**/out
 **/charts
 **/docker-compose*
 **/Dockerfile*
-**/*.md
 **/node_modules
 **/npm-debug.log
 **/obj
