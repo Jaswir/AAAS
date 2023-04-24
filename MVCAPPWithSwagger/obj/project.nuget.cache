@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "nsAXMo6wXePIEvoKyhPCTnUqVkVX3bzmEokpJ0SymKjB8nZV92UzZT6npoQTlzWqc1HqZv7qUO3dMvXWOeTQ4g==",
+  "dgSpecHash": "oZdcbYJV4I63lB/6is/DZiBtPgZioId2WXNZpfTSl4l5YMlHZ77ThUPtWiNOTdxePL5RwW6dd+4KkF9ZqA1pCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jaswir Raghoe\\source\\repos\\serverhostingtest\\MVCAPPWithSwagger\\MVCAPPWithSwagger.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
