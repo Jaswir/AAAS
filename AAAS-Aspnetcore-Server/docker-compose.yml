@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  aaas:
-    image: ${DOCKER_REGISTRY-}aaas
-    build:
-      context: .
-      dockerfile: AAAS/Dockerfile
