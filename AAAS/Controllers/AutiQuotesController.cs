@@ -48,7 +48,7 @@ namespace AAAS.Controllers
 
         //api/v1/AutiQuotes/random/relatable_feeling
         //Return a random images
-        [HttpGet("random/relatable_feeling")]
+        [HttpGet("random/relatable_feeling/{relatable_feeling}")]
         public async Task<ActionResult<AutiQuote>> GetRandomRelatableFeeling(Feeling relatable_feeling)
         {
             Random rand = new Random();

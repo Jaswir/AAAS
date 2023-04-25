@@ -1,6 +1,28 @@
 [
   {
+    "id": 0,
     "Author": "Elon Musk",
-    "Quote": "“To anyone I have offended, I just want to say I reinvented electric cars and I’m sending people to Mars on a rocket ship. Did you think I was also going to be a chill, normal dude?”"
+    "Quote": "“To anyone I have offended, I just want to say I reinvented electric cars and I’m sending people to Mars on a rocket ship. Did you think I was also going to be a chill, normal dude?”",
+    "Relatable_Feeling": 0
+  },
+
+  {
+    "id": 1,
+    "Author": "Mark Zuckerberg",
+    "Quote": "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.",
+    "Relatable_Feeling": 1
+  },
+
+  {
+    "id": 2,
+    "Author": "Mark Zuckerberg",
+    "Quote": "People don't care about what you say, they care about what you build.",
+    "Relatable_Feeling": 1
   }
+
+
+  //{
+  //  "Author": "Temple Grandin",
+  //  "Quote": "What would happen if the autism gene was eliminated from the gene pool? You would have a bunch of people standing around in a cave, chatting and socializing and not getting anything done."
+  //},
 ]
