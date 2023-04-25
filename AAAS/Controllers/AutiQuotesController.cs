@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
+using static AAAS.Models.AutiQuote;
 
 namespace AAAS.Controllers
 {
@@ -26,30 +27,34 @@ namespace AAAS.Controllers
             Random rand = new Random();
             int skipper = rand.Next(0, dbContext.Auti_Quotes.Count());
 
-            var randomCatImages = await dbContext
+            var randomQuote = await dbContext
                 .Auti_Quotes
                 .OrderBy(id => (""))
                 .Skip(skipper)
                 .Take(1).ToListAsync();
 
-            return randomCatImages[0];
+            return randomQuote[0];
         }
 
-        //api/v1/images/random10
-        //Return 10 random images
-        [HttpGet("random10")]
-        
-        public async Task<ActionResult<IEnumerable<AutiQuote>>> GetRandom10()
+        //api/v1/images/random/relatable_feeling
+        //Return a random images
+        [HttpGet("random/relatable_feeling")]
+        public async Task<ActionResult<AutiQuote>> GetRandomRelatableFeeling(Feeling relatable_feeling)
         {
             Random rand = new Random();
-            int skipper = rand.Next(0, dbContext.Auti_Quotes.Count());
+            int skipper = rand.Next(0, 
+                dbContext.Auti_Quotes
+                .Where(x => x.Relatable_Feeling == relatable_feeling)
+                .Count());
 
-            return await dbContext
-                .Auti_Quotes
+            var randomQuote = await dbContext
+                .Auti_Quotes           
+                .Where(x => x.Relatable_Feeling == relatable_feeling)
                 .OrderBy(id => (""))
                 .Skip(skipper)
-                .Take(10)
-                .ToListAsync();
+                .Take(1).ToListAsync();
+
+            return randomQuote[0];
         }
 
     }
