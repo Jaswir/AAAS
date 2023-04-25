@@ -7,12 +7,14 @@
   },
 
   {
+    "id": 1,
     "Author": "Mark Zuckerberg",
     "Quote": "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.",
     "Relatable_Feeling": 1
   },
 
   {
+    "id": 2,
     "Author": "Mark Zuckerberg",
     "Quote": "People don't care about what you say, they care about what you build.",
     "Relatable_Feeling": 1

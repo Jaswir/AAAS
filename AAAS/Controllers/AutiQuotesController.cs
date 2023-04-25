@@ -19,7 +19,17 @@ namespace AAAS.Controllers
             this.dbContext = dbContext;
         }
 
-        //api/v1/images/random
+        // api/v1/AutiQuotes
+        // Returns list of all quotes
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<AutiQuote>>> Get()
+        {
+            var quotes = await dbContext.Auti_Quotes.ToListAsync();
+            return quotes;
+        }
+
+
+        //api/v1/AutiQuotes/random
         //Return a random images
         [HttpGet("random")]
         public async Task<ActionResult<AutiQuote>> GetRandom()
@@ -36,7 +46,7 @@ namespace AAAS.Controllers
             return randomQuote[0];
         }
 
-        //api/v1/images/random/relatable_feeling
+        //api/v1/AutiQuotes/random/relatable_feeling
         //Return a random images
         [HttpGet("random/relatable_feeling")]
         public async Task<ActionResult<AutiQuote>> GetRandomRelatableFeeling(Feeling relatable_feeling)
