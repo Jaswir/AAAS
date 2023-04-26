@@ -47,6 +47,7 @@ IApplicationBuilder applicationBuilder = app;
 using (IServiceScope scope = applicationBuilder.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetService<AAAS_DbContext>();
+    dbContext.Database.EnsureDeleted();
     dbContext.Database.EnsureCreated();
     Seeder seeder = new Seeder();
     seeder.Seed(dbContext);

@@ -14,7 +14,8 @@ namespace AAAS.Models
         public enum Feeling
         {
            Like_I_am_not_good_how_I_am,
-           Like_I_have_bad_social_skills
+           Like_I_have_bad_social_skills,
+           Misunderstood
         }
       
 

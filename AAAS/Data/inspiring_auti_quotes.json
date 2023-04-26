@@ -18,6 +18,14 @@
     "Author": "Mark Zuckerberg",
     "Quote": "People don't care about what you say, they care about what you build.",
     "Relatable_Feeling": 1
+  },
+
+
+  {
+    "id": 3,
+    "Author": "Dr. Stephen Shore",
+    "Quote": "People don't care about what you say, they care about what you build.",
+    "Relatable_Feeling": 2
   }
 
 
